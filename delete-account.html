@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Delete Your Account – Trackstar</title>
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    body {
+      background-color: #0d0d17;
+      color: #ffffff;
+      font-family: -apple-system, BlinkMacSystemFont, "SF Pro Display", "Segoe UI", sans-serif;
+      min-height: 100vh;
+      line-height: 1.6;
+    }
+
+    .hero {
+      background: radial-gradient(ellipse at 50% 0%, rgba(46, 128, 255, 0.18) 0%, transparent 70%);
+      padding: 72px 24px 48px;
+      text-align: center;
+    }
+
+    .logo {
+      width: 80px;
+      height: 80px;
+      border-radius: 20px;
+      display: inline-block;
+      margin-bottom: 20px;
+      overflow: hidden;
+      box-shadow: 0 8px 32px rgba(0,0,0,0.5);
+    }
+
+    .logo img { width: 100%; height: 100%; object-fit: cover; display: block; }
+
+    .hero h1 {
+      font-size: 2.2rem;
+      font-weight: 700;
+      letter-spacing: -0.5px;
+      background: linear-gradient(135deg, #ffffff 0%, rgba(255,255,255,0.7) 100%);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      background-clip: text;
+    }
+
+    .hero p {
+      color: rgba(255,255,255,0.45);
+      font-size: 0.95rem;
+      margin-top: 8px;
+    }
+
+    .container { max-width: 680px; margin: 0 auto; padding: 0 24px 80px; }
+
+    .back-link {
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      color: rgba(255,255,255,0.4);
+      font-size: 0.875rem;
+      text-decoration: none;
+      margin-bottom: 24px;
+    }
+    .back-link:hover { color: #fff; }
+
+    .card {
+      background: rgba(255,255,255,0.04);
+      border: 1px solid rgba(255,255,255,0.08);
+      border-radius: 20px;
+      padding: 28px;
+      margin-bottom: 16px;
+    }
+
+    .card h2 {
+      font-size: 0.75rem;
+      font-weight: 600;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+      color: rgba(255,255,255,0.35);
+      margin-bottom: 14px;
+    }
+
+    .card p, .card li {
+      font-size: 0.95rem;
+      color: rgba(255,255,255,0.65);
+      line-height: 1.7;
+    }
+
+    .card ol { margin: 6px 0 0 20px; }
+    .card ol li { padding: 6px 0; }
+
+    .card ul { list-style: none; margin-top: 6px; }
+    .card ul li {
+      padding: 12px 0 12px 16px;
+      border-bottom: 1px solid rgba(255,255,255,0.06);
+      position: relative;
+    }
+    .card ul li:last-child { border-bottom: none; }
+    .card ul li::before {
+      content: "›";
+      color: #2e80ff;
+      font-size: 1rem;
+      position: absolute;
+      left: 0;
+      top: 12px;
+    }
+
+    a { color: #2e80ff; text-decoration: none; }
+    a:hover { text-decoration: underline; }
+
+    footer {
+      text-align: center;
+      color: rgba(255,255,255,0.2);
+      font-size: 0.8rem;
+      padding-bottom: 40px;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="hero">
+    <div class="logo"><img src="logo.png" alt="Trackstar" /></div>
+    <h1>Delete Your Account</h1>
+    <p>Trackstar</p>
+  </div>
+
+  <div class="container">
+
+    <a class="back-link" href="index.html">‹ Back to Support</a>
+
+    <div class="card">
+      <h2>How to delete your Trackstar account</h2>
+      <p>You can permanently delete your Trackstar account and all associated data in one of two ways:</p>
+      <ol>
+        <li><strong>In the app</strong> — open Trackstar, go to <strong>Profile → Settings → Close Account</strong>, and confirm. Your account and data are deleted immediately.</li>
+        <li><strong>By email</strong> — if you can't access the app, email <a href="mailto:support@trackstar.fitness">support@trackstar.fitness</a> from your registered email address with the subject "Delete my account". We will verify and process your request within 30 days.</li>
+      </ol>
+    </div>
+
+    <div class="card">
+      <h2>What data is deleted</h2>
+      <p>Deleting your account permanently removes all of your personal data, including:</p>
+      <ul>
+        <li>Your account and profile (name, email, age, height, weight, and fitness goals)</li>
+        <li>Your workout plans, logged sessions, and training history</li>
+        <li>Your diet plans and nutrition data</li>
+        <li>Any coach–athlete connections associated with your account</li>
+      </ul>
+    </div>
+
+    <div class="card">
+      <h2>What may be retained</h2>
+      <p>Deletion is permanent and cannot be undone. We do not retain your personal data after deletion, except where we are legally required to keep limited records (for example, purchase and tax records for subscriptions, which are processed by Google Play). Any residual data in encrypted backups is purged within 30 days.</p>
+    </div>
+
+    <div class="card">
+      <h2>Contact</h2>
+      <p>Questions about account deletion? Email <a href="mailto:support@trackstar.fitness">support@trackstar.fitness</a>.</p>
+    </div>
+
+  </div>
+
+  <footer>
+    &copy; 2026 Trackstar. All rights reserved.
+  </footer>
+
+</body>
+</html>
